@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1596847529149734}
+  m_IsPrefabParent: 1
+--- !u!1 &1596847529149734
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4560853227598992}
+  - component: {fileID: 114466911261318734}
+  m_Layer: 0
+  m_Name: NarrativeManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4560853227598992
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1596847529149734}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114466911261318734
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1596847529149734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93dab1a2748e6de4aa4e85e1000cbd21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  talk_button: 13
+  choice1_button: 49
+  choice2_button: 50
+  choice3_button: 51
+  choice4_button: 52
+  talk_bubble_prefab: {fileID: 1897844942822158, guid: dbd04e88182225847880184d9f8eecec,
+    type: 2}
+  talk_button_prefab: {fileID: 1262735380300276, guid: 1e4766d8f71993c48a9c4f6831663ffa,
+    type: 2}
+  default_portrait: {fileID: 21300000, guid: c2fc6bdd6cc3ccf4db450499ae10cd5d, type: 3}
+  default_portrait_zoomed: {fileID: 21300000, guid: c2fc6bdd6cc3ccf4db450499ae10cd5d,
+    type: 3}
+  dialogue_data:
+    dialogue_history: []

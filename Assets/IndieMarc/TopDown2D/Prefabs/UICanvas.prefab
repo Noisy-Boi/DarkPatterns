@@ -1234,7 +1234,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: c090cae8a44297c46b2132ba0b40ef97, type: 3}
+    m_Font: {fileID: 12800000, guid: 3c4f8001dab0d4134ab28fe4d4a2cbe8, type: 3}
     m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
@@ -1455,8 +1455,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 981b199691925fa49bdb2cdc9573323d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  value: 0
-  value_max: 4
+  value: 5
+  value_max: 5
   icons:
   - {fileID: 114159408446496124}
   - {fileID: 114646054191831228}
@@ -1544,7 +1544,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: c090cae8a44297c46b2132ba0b40ef97, type: 3}
+    m_Font: {fileID: 12800000, guid: 3c4f8001dab0d4134ab28fe4d4a2cbe8, type: 3}
     m_FontSize: 80
     m_FontStyle: 0
     m_BestFit: 0

@@ -27,6 +27,7 @@ namespace IndieMarc.TopDown
         [Header("Stats")]
         public float max_hp = 100f;
         public float attack_damage = 1f;
+		public float hp;
         
         [Header("Movement")]
         public float move_accel = 20f;
@@ -60,8 +61,6 @@ namespace IndieMarc.TopDown
         private Vector2 move;
         private Vector2 facing = Vector2.down;
         private Vector3 jump_target;
-
-        private float hp;
 
         private float state_timer = 0f;
         private float attack_timer = 0f;
@@ -436,6 +435,7 @@ namespace IndieMarc.TopDown
         public void OnSwordHit(Collider2D other)
         {
             Enemy enemy = other.GetComponent<Enemy>();
+			
             if (enemy != null)
             {
                 enemy.TakeDamage(attack_damage);
@@ -444,8 +444,10 @@ namespace IndieMarc.TopDown
                 if (onAttackHit != null)
                     onAttackHit.Invoke(enemy.gameObject);
             }
+			
+			
         }
-        
+		
         private void OnCollisionEnter2D(Collision2D collision)
         {
             if (IsDead())

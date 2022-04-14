@@ -82,7 +82,7 @@ namespace IndieMarc.TopDown
         private float current_mult = 1f;
         private Vector3 current_rot_target;
         private float current_rot_mult = 1f;
-        private float hp;
+        public float hp;
 
         private bool waiting = false;
         private int current_path = 0;

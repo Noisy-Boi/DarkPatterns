@@ -45,7 +45,6 @@ namespace IndieMarc.TopDown
             animator.SetBool("Move", character.GetMove().magnitude > 0.1f);
             animator.SetFloat("MoveX", character.GetAnimFacing().x);
             animator.SetFloat("MoveY", character.GetAnimFacing().y);
-            animator.SetBool("Climb", character.IsClimbing());
 
             //Hit flashing
             render.color = new Color(render.color.r, render.color.g, render.color.b, 1f);
